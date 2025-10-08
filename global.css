@@ -1,9 +1,15 @@
 /* =====Barra menú superior ===== */
+body { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
 .autocenterContainer {
     max-width: 800px;     /* amplada màxima */
     margin: auto;         /* centra horitzontalment */
-    background: rgb(247, 91, 125);
+    background: rgb(250, 90, 157);
     padding: 20px;
+    
 }
 .titleContainer { 
     align-items: center;
