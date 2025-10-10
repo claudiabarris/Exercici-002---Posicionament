@@ -10,7 +10,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgb(247, 187, 205);
+  background: rgb(196, 211, 255);
   padding: 20px;
   display: flex;
   flex-direction: column; /* Elementos en vertical: logo-titulo arriba, menú abajo */
@@ -21,7 +21,7 @@ body {
 .logo-titulo {
   display: flex;
   align-items: center;
-  gap: 10px; /* espacio entre imagen y texto */
+  gap: 10px; /* Para poner el espacio de la imagen y texto */
 }
 
 .imagenLogo {
