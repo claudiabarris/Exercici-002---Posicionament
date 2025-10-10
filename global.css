@@ -1,40 +1,59 @@
-
-body { 
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-    
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 130px; /* Para que el contenido no quede debajo de la barra */
 }
+
 .barrasuperior {
-    position: fixed;top: 0%;width: 100%;
-    margin: auto;         /* aixo centra horitzontalment */
-    background: rgb(255, 108, 169);
-    padding: 20px;
-    
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(247, 187, 205);
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Elementos en vertical: logo-titulo arriba, menú abajo */
+  align-items: center;
+  z-index: 999;
 }
 
-.titulobarrasuperior { 
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-    margin-top: 1em;
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espacio entre imagen y texto */
 }
-.titulobarrasuperior > h1 { 
-    box-sizing: border-box;
-    margin: 0;
+
+.imagenLogo {
+  height: 70px;
+  width: auto;
 }
-.barrasuperior .menu{
+
+.titulo {
+  margin: 0;
+  font-size: 1.8em;
+  color: white;
+}
+
+.barrasuperior .menu {
   list-style: none;
-  display:flex;
+  display: flex;
   gap: 20px;
   padding: 0;
-  margin: 0;
-
-
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
-.enlaceColor{
-    color: white;
 
+.barrasuperior .menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
+
+.barrasuperior .menu a:hover {
+  color: #fff;
+  transform: translateY(-1px);
+}
+
