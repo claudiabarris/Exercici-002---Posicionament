@@ -57,3 +57,12 @@ body {
   transform: translateY(-1px);
 }
 
+
+.PiedePagina {
+  margin: auto;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
