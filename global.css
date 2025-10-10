@@ -1,29 +1,33 @@
-/* =====Barra menú superior ===== */
+
 body { 
-    font-family: "Open Sans";
+    font-family: "arial";
     margin: 0;
     padding: 0;
+    
 }
-.autocenterContainer {
-    max-width: 800px;     /* amplada màxima */
-    margin: auto;         /* centra horitzontalment */
-    background: rgb(250, 90, 157);
+.barrasuperior {
+    position: fixed;top: 0%;width: 100%;
+    margin: auto;         /* aixo centra horitzontalment */
+    background: rgb(255, 108, 169);
     padding: 20px;
     
 }
-.titleContainer { 
+
+.titulobarrasuperior { 
     align-items: center;
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
     margin-top: 1em;
 }
-.titleContainer > h1 { 
+.titulobarrasuperior > h1 { 
     box-sizing: border-box;
     margin: 0;
 }
-.titleContainer > h2 { 
-    box-sizing: border-box;
-    font-weight: 100;
-    margin: 0;
+.barrasuperior .menu{
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
 }
