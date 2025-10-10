@@ -1,6 +1,7 @@
 
 body { 
-    font-family: "arial";
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     
@@ -26,8 +27,10 @@ body {
 }
 .barrasuperior .menu{
   list-style: none;
-  display: flex;
-  gap: 18px;
+  display:flex;
+  gap: 20px;
   padding: 0;
   margin: 0;
+
+
 }
