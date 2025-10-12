@@ -192,7 +192,7 @@ body {
   gap: 20px; /* espacio entre los elementos */
 }
 .separador {
-  width: 60px;
+  width: 150px;
   
 }
 
@@ -200,9 +200,49 @@ body {
   top: 0;
   width: 100%;
   background: rgb(255, 255, 255);
-  padding: 20px;
+  padding: 10pxpx;
   display: flex;
   flex-direction: column; /* Elementos en vertical: logo-titulo arriba, menú abajo */
   align-items: center;
   z-index: 999;
+}
+
+.filtres {
+    font-family: sys, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+   margin: auto;
+  background-color: rgb(170, 186, 233);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  font-style: bold;
+}
+.separador_filtres{
+  width: 40px;
+
+}
+
+.grid{
+   display: flex;              /* activa flexbox */
+  flex-wrap: wrap;            /* permite que las tarjetas salten de línea */
+  justify-content: center;
+  gap: 20px;                  /* espacio entre tarjetas */
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.tarjeta{
+   flex: 1 1 260px;        /* ancho flexible, mínimo de 260px */
+   max-width: 260px;
+  border: 1px solid rgb(141, 160, 214);
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  color: rgb(120, 123, 131);
+}
+.productes{
+  width: 100%;
+  height: auto;
+  max-width: 300px;
 }
