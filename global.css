@@ -213,10 +213,12 @@ body {
   background-color: rgb(170, 186, 233);
   color: white;
   padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
+  display:block;
+  justify-content:space-between;
   align-items:center;
   font-style: bold;
+  text-align: center;
+  gap: 60px;
 }
 .separador_filtres{
   width: 30px;
