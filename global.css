@@ -179,3 +179,30 @@ body {
   justify-content: center;
   margin: auto;
 }
+
+.barra-informativa {
+  display: flex;
+  justify-content: center; /* centra el contenido en horizontal */
+  align-items: center;      /* centra verticalmente si hay más altura */
+  background-color: rgb(196, 211, 255); /* color lila claro */
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  gap: 20px; /* espacio entre los elementos */
+}
+.separador {
+  width: 60px;
+  
+}
+
+.separador_blanco {
+  top: 0;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Elementos en vertical: logo-titulo arriba, menú abajo */
+  align-items: center;
+  z-index: 999;
+}
