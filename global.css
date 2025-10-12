@@ -54,15 +54,48 @@ body {
 
 .barrasuperior .menu a:hover {
   color: #fff;
-  transform: translateY(-1px);
 }
 
 
 .PiedePagina {
   margin: auto;
-  background-color: black;
+  background-color: rgb(196, 211, 255);
   color: white;
-  padding: 10px;
+  padding: 15px 30px;
   display: flex;
   justify-content: space-between;
+  align-items:center;
+  flex-direction: column;
+}
+.PiedePagina .links{
+   list-style: none;
+  display: flex;
+  gap: 5px;
+  padding: 0;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  text-decoration: underline;
+  display: flex;
+  
+}
+.PiedePagina .links a{
+    color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, color 0.2s ease;
+  
+}
+.insta{
+   height: 30px;
+  width: auto;
+}
+.twitter{
+  height: 40px;
+  width: auto;
+}
+.tiktok{
+  height: 35px;
+  width: auto;
 }
