@@ -78,6 +78,7 @@ body {
   font-size: medium;
   text-decoration: underline;
   display: flex;
+  margin-bottom: 30px;
   
 }
 .PiedePagina .links a{
@@ -256,6 +257,7 @@ body {
   padding-top: 10px;
   align-items: center; 
   display: flex;
+  margin-top: 20px;
 }
 .grid_contacto{
   display: flex;              
