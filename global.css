@@ -257,7 +257,7 @@ body {
   margin-top: 20px;
 }
 .grid_contacto{
-  display: flex;              
+  display: grid;              
   flex-wrap: wrap;            
   justify-content: center;
   gap: 10px;                  
