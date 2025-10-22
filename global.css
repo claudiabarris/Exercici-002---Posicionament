@@ -1,6 +1,6 @@
 body {
   font-family: sys, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: #120116;
   margin: 0;
   padding: 0;
   padding-top: 130px; /* Para que el contenido no quede debajo de la barra */
@@ -32,7 +32,7 @@ body {
 .titulo {
   margin: 0;
   font-size: 1.8em;
-  color: white;
+  color: #120116;;
 }
 
 .barrasuperior .menu {
@@ -46,21 +46,21 @@ body {
 }
 
 .barrasuperior .menu a {
-  color: white;
+  color: #5e0a70;;
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .barrasuperior .menu a:hover {
-  color: #fff;
+  color: #120116;;
 }
 
 
 .PiedePagina {
   margin: auto;
   background-color: rgb(196, 211, 255);
-  color: white;
+  color: #5e0a70;;
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -82,7 +82,7 @@ body {
   
 }
 .PiedePagina .links a{
-    color: white;
+    color: #5e0a70
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.2s ease, color 0.2s ease;
@@ -127,7 +127,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(255, 255, 255);
+  color: #5e0a70(255, 255, 255);
   font-size:large 
 }
 
@@ -210,7 +210,7 @@ body {
     font-family: sys, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
    margin: auto;
   background-color: rgb(170, 186, 233);
-  color: white;
+  color: #5e0a70;
   padding: 10px 15px;
   display:block;
   justify-content:space-between;
